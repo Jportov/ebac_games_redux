@@ -1,0 +1,241 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "FIFA 23",
+      "plataformas": ["Xbox Series S/X", "Windows", "PS5"],
+      "precoAntigo": 299,
+      "preco": 190,
+      "categoria": "Esportes",
+      "descricao": "O mais recente FIFA, trazendo jogabilidade realista e times atualizados.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202301/0312/yM0eeJui8AFByeP5BC5XV5j9.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Gotham Knights",
+      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
+      "precoAntigo": 299,
+      "preco": 150,
+      "categoria": "Ação",
+      "descricao": "A cidade de Gotham precisa de novos heróis após a morte do Batman.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202204/1422/cXffCEiRPrxFapUs6zxJQp1k.png"
+    },
+    {
+      "id": 3,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "plataformas": ["Xbox Series S/X", "PS5", "Windows"],
+      "precoAntigo": 349,
+      "preco": 140.9,
+      "categoria": "RPG",
+      "descricao": "A jornada épica de Geralt de Rívia em um vasto mundo aberto.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Hogwarts Legacy",
+      "plataformas": ["PS5", "Windows"],
+      "precoAntigo": null,
+      "preco": 349.9,
+      "categoria": "Aventura",
+      "descricao": "Explore Hogwarts no século XIX e descubra mistérios mágicos.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/JmxLZt6exeqcKRz7BSmK8aId.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Cyberpunk 2077",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 299,
+      "preco": 199,
+      "categoria": "RPG",
+      "descricao": "Explore Night City e defina seu destino em um futuro cyberpunk.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202012/cp2077-cover.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Resident Evil 4 Remake",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 349,
+      "preco": 299,
+      "categoria": "Terror",
+      "descricao": "O icônico Resident Evil 4 com gráficos modernizados e gameplay refinado.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202303/re4remake-cover.png"
+    },
+    {
+      "id": 7,
+      "titulo": "Elden Ring",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 349,
+      "preco": 299,
+      "categoria": "RPG",
+      "descricao": "Explore as Terras Intermédias e lute contra deuses em um mundo aberto sombrio.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202202/eldenring-cover.png"
+    },
+    {
+      "id": 8,
+      "titulo": "Gran Turismo 7",
+      "plataformas": ["PS5"],
+      "precoAntigo": 299,
+      "preco": 249,
+      "categoria": "Corrida",
+      "descricao": "O simulador de corrida definitivo com física e gráficos realistas.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202203/gt7-cover.png"
+    }
+  ],
+  "emBreve": [
+    {
+      "id": 9,
+      "titulo": "Assassin’s Creed Mirage",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 349,
+      "preco": 289,
+      "categoria": "Ação",
+      "descricao": "O retorno às raízes furtivas de Assassin’s Creed.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202303/ac-mirage-cover.png"
+    },
+    {
+      "id": 10,
+      "titulo": "Star Wars Jedi: Survivor",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 349,
+      "preco": 299,
+      "categoria": "Ação",
+      "descricao": "A continuação da jornada de Cal Kestis na galáxia de Star Wars.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202304/starwarsjedi-cover.png"
+    }
+  ],
+  "promocoes": [
+    {
+      "id": 11,
+      "titulo": "Red Dead Redemption 2",
+      "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+      "precoAntigo": 249,
+      "preco": 149,
+      "categoria": "Aventura",
+      "descricao": "Explore o Velho Oeste em um mundo aberto incrível e imersivo.",
+      "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202011/rdr2-cover.png"
+    }
+  ],
+  "categorias": {
+    "FPS": [
+      {
+        "id": 12,
+        "titulo": "Call of Duty: Modern Warfare III",
+        "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+        "precoAntigo": 349,
+        "preco": 299,
+        "categoria": "FPS",
+        "descricao": "Combates intensos e campanha cinematográfica.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202310/mw3-cover.png"
+      }
+    ],
+    "RPG": [
+      {
+        "id": 13,
+        "titulo": "Baldur’s Gate 3",
+        "plataformas": ["PS5", "Windows"],
+        "precoAntigo": 299,
+        "preco": 249,
+        "categoria": "RPG",
+        "descricao": "Um RPG épico baseado no universo de Dungeons & Dragons.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202310/bg3-cover.png"
+      }
+    ],
+    "MMORPG": [
+      {
+        "id": 14,
+        "titulo": "Final Fantasy XIV",
+        "plataformas": ["Windows", "PS5"],
+        "precoAntigo": 149,
+        "preco": 99,
+        "categoria": "MMORPG",
+        "descricao": "Explore Eorzea em um dos maiores MMORPGs da atualidade.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202303/ffxiv-cover.png"
+      }
+    ],
+    "Ação": [
+      {
+        "id": 15,
+        "titulo": "Devil May Cry 5",
+        "plataformas": ["PS5", "Windows", "Xbox Series S/X"],
+        "precoAntigo": 249,
+        "preco": 199,
+        "categoria": "Ação",
+        "descricao": "Combates estilosos e ação frenética no retorno de Dante e Nero.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202303/dmc5-cover.png"
+      }
+    
+    ,{
+      "id": 16,
+        "titulo": "Marvel’s Spider-Man 2",
+        "plataformas": ["PS5"],
+        "precoAntigo": null,
+        "preco": 349.9,
+        "categoria": "Ação",
+        "descricao": "Peter Parker e Miles Morales unem forças contra novos vilões em Nova York.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202303/spiderman2-cover.png"
+    },
+    {
+      "id": 17,
+        "titulo": "Forza Motorsport",
+        "plataformas": ["Xbox Series S/X", "Windows"],
+        "precoAntigo": null,
+        "preco": 299.9,
+        "categoria": "Corrida",
+        "descricao": "A nova geração de simulação de corrida com gráficos ultra-realistas.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202309/forza-cover.png"
+    },
+    {
+      "id": 18,
+        "titulo": "Diablo IV",
+        "plataformas": ["PS5", "Xbox Series S/X", "Windows"],
+        "precoAntigo": 349.9,
+        "preco": 299.9,
+        "categoria": "RPG",
+        "descricao": "Retorne ao mundo sombrio de Sanctuary e enfrente demônios em um RPG de ação.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202302/diablo4-cover.png"
+    },
+    {
+      "id": 19,
+        "titulo": "Horizon Forbidden West",
+        "plataformas": ["PS5", "Windows"],
+        "precoAntigo": 349,
+        "preco": 199.9,
+        "categoria": "Aventura",
+        "descricao": "Explore terras selvagens e enfrente máquinas colossais em uma jornada épica.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202201/horizonfw-cover.png"
+    },
+    {
+      "id": 20,
+        "titulo": "God of War: Ragnarök",
+        "plataformas": ["PS5"],
+        "precoAntigo": 349,
+        "preco": 249.9,
+        "categoria": "Ação",
+        "descricao": "Kratos e Atreus enfrentam o Fimbulwinter e os deuses nórdicos.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202210/gowr-cover.png"
+    },
+    {
+      "id": 21,
+        "titulo": "Starfield",
+        "plataformas": ["Xbox Series S/X", "Windows"],
+        "precoAntigo": 349.9,
+        "preco": 299.9,
+        "categoria": "RPG",
+        "descricao": "Explore a galáxia em um RPG espacial épico da Bethesda Game Studios.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202305/starfield-cover.png"
+    }
+  ],
+    "Terror": [
+      {
+        "id": 25,
+        "titulo": "Dead Space Remake",
+        "plataformas": ["PS5", "Xbox Series S/X", "Windows"],
+        "precoAntigo": 249,
+        "preco": 149.9,
+        "categoria": "Terror",
+        "descricao": "Reviva o clássico de terror espacial com gráficos e mecânicas modernizadas.",
+        "imagem": "https://image.api.playstation.com/vulcan/ap/rnd/202210/deadspace-cover.png"
+      }
+    ]
+  }
+}
