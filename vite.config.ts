@@ -3,6 +3,7 @@ import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/", // Garante que o Vercel sirva corretamente os arquivos
   test: {
     setupFiles: "./src/setupTests.ts",
     globals: true,
