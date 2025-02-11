@@ -22,6 +22,11 @@ export const HeaderBar = styled.header`
       align-items: center;
       }
 
+      img {
+        width: 78px;
+        height:32px;  
+      }
+
 
   @media (max-width: 768px) {
     flex-direction: column;

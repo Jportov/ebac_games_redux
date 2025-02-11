@@ -1,9 +1,10 @@
 import { useSelector } from 'react-redux'
 import cesta from '../../assets/images/carrinho.svg'
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/alter.png'
 import { RootState } from '../../store'
 import { paraReal } from '../Produto'
 import { HeaderBar, LinkCarrinho, LinkItem, Links } from './styles'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const itens = useSelector((state: RootState) => state.carrinho.itens)
@@ -16,15 +17,14 @@ const Header = () => {
   return (
     <HeaderBar>
       <div>
-
-
-
+      <Link to="/">
       <img src={logo} />
+      </Link>
       <nav>
           <Links>
-          <LinkItem><a href='categorias'>Categorias</a></LinkItem>
-          <LinkItem><a href='embreve'>Novidades</a></LinkItem>
-          <LinkItem><a href='promocao'>Promocoções</a></LinkItem>
+          <LinkItem><Link to="/categorias">Categorias</Link></LinkItem>
+          <LinkItem><Link to="/embreve">Novidades</Link></LinkItem>
+          <LinkItem> <Link to="/promocoes">Promoções</Link></LinkItem>
           </Links>
       </nav>
       </div>

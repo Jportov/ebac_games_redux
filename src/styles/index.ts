@@ -9,6 +9,7 @@ export const cores = {
   preta: '#111',
   branca: '#EEEEEE',
   verde:'#10ac84',
+  cinzaClaro: '#A3A3A3'
 
 }
 
@@ -18,7 +19,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: "Anton", serif;
+    font-weight: bold;
     color: ${cores.corTexto};
   }
 
