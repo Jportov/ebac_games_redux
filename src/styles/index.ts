@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: "Anton", serif;
+    font-family: "Roboto", serif;
     font-weight: bold;
     color: ${cores.corTexto};
   }

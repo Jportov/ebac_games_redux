@@ -45,7 +45,7 @@ export const ButtonLink = styled(Link)`
 export const BtnComprar = styled.button`
   margin-top: auto; /* Empurra o botão para o final */
   width: 100%;
-  background-image: linear-gradient(45deg, ${cores.preta}, ${cores.cinza});
+  background-image: linear-gradient(45deg, ${cores.preta}, ${cores.verde});
   font-weight: bold;
   font-size: 16px;
   padding: 12px 0;
@@ -56,7 +56,7 @@ export const BtnComprar = styled.button`
   border-radius: 4px;
 
   &:hover {
-    background-image: linear-gradient(-45deg, ${cores.verde}, ${cores.cinza});
+    background-image: linear-gradient(-65deg, ${cores.verde}, ${cores.verde});
   }
     .btn-container {
     display: flex;

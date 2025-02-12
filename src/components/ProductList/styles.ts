@@ -31,7 +31,7 @@ export const ListProducts = styled.ul`
 export const TitleProductList = styled.h2`
     font-size: 18px;
     margin-bottom: 10px;
-    color: #fff;
+    color: ${cores.branca};
     font-weight: bold;
     margin-top: 10px;
 
