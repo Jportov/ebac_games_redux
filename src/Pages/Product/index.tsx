@@ -2,6 +2,8 @@
 import { useParams } from "react-router-dom";
 import Hero from "../../components/Hero";
 import Section from "../../components/Section";
+import Gallery from "../../components/Gallery";
+import residenT from '../../assets/images/resident.png'
 
 
 
@@ -24,11 +26,7 @@ return (
         <b>Idiomas:</b> O jogo oferece suporte a diversos idiomas, incluindo inglês, espanhol, francês, alemão, italiano, português, entre outros. As opções de áudio e legendas podem ser aiustadas nas configurações do jogo. 
         </p>  {/* Content related to the game will go here, such as game details or images */}
         </Section>
-        <Section title="Galeria " background="black">
-        <div>
-                fotos   
-        </div>
-        </Section>
+        <Gallery name="Jogo Teste" defaultImage={residenT}/>
         </>
 )
 }
