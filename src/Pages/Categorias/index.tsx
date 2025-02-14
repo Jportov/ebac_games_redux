@@ -1,18 +1,15 @@
-
+import { useState } from "react";
 import ProductList from "../../components/ProductList";
-import gamesData from "../../db.json";
+import { Game } from "../Home";
 
+const Categorias = () => {
+    const [emBreve, setEmBreve] = useState<Game[]>([]);
 
+    return (
+        <>
+            <ProductList title="FPS" background="grey" games={emBreve} />
+        </>
+    );
+}
 
-const Categorias = () => (
-
-<>
-        <ProductList title="FPS" background="grey" games={gamesData.emBreve} />
-        <ProductList title="Ação" background="grey" games={gamesData.emBreve} />
-        <ProductList title="RPG" background="grey" games={gamesData.emBreve} />
-        <ProductList title="Promoções" background="grey" games={gamesData.emBreve} />
-</>
-
-)
-
-export default Categorias
+export default Categorias;

@@ -1,26 +1,9 @@
 import { useDispatch } from "react-redux";
-
-
 import { adicionar } from "../../store/reducers/carrinho";
 import { BtnComprar } from "../Button/styles";
 import { TagContainer } from "../Tag/styles";
 import { Card, Descricao, Infos, PlataformasContainer, Prices, Titulo } from "./styles";
-
-
-export type Game = {
-  id: number;
-  titulo: string;
-  categoria: string;
-  plataformas: string[];
-  descricao?: string;
-  info?: string[];
-  precoAntigo: number | null;
-  preco: number;
-  imagem: string;
-};
-
-
-
+import { Game } from "../../Pages/Home";
 
 type PropsGame = {
   game: Game;
@@ -32,30 +15,27 @@ export const paraReal = (valor: number) =>
 const Produto = ({ game }: PropsGame) => {
   const dispatch = useDispatch();
 
-  if (!game.titulo) return null;
+  if (!game.name) return null;
 
   return (
     <Card>
-      <img src={game.imagem} alt={game.titulo} />
+      <img src={game.media.thumbnail} alt={game.name} />
 
       {/* Categoria - Fica no topo */}
       <Infos>
-        <TagContainer>{game.categoria}</TagContainer>
+        <TagContainer>{game.details.category}</TagContainer>
       </Infos>
 
       {/* Plataformas - Ficam abaixo da imagem */}
-        
-              <Titulo>{game.titulo}</Titulo>
+      <Titulo>{game.name}</Titulo>
       <PlataformasContainer>
-        {game.plataformas?.map((plataforma) => (
-          <TagContainer key={plataforma}>{plataforma}</TagContainer>
-        ))}
+        {game.details.system && <TagContainer>{game.details.system}</TagContainer>}
       </PlataformasContainer>
-      <Descricao>{game.descricao || "Descrição não disponível."}</Descricao>
+      <Descricao>{game.description || "Descrição não disponível."}</Descricao>
 
       <Prices>
-        {game.precoAntigo && <small>{paraReal(game.precoAntigo)}</small>}
-        <strong>{paraReal(game.preco)}</strong>
+        {game.prices.old && <small>{paraReal(game.prices.old)}</small>}
+        <strong>{paraReal(game.prices.current)}</strong>
       </Prices>
 
       <div className="btn-container">
@@ -70,6 +50,5 @@ const Produto = ({ game }: PropsGame) => {
     </Card>
   );
 };
-
 
 export default Produto;

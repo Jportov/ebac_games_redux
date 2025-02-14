@@ -55,27 +55,28 @@ object-fit: cover;
 `
 
 export const Modal = styled.div`
-    position: fixed;
+     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
-    display: flex;
+    z-index: 10;
+    display: none;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     height: 100%;
-    .overlay{ 
+
+    &.visivel {
+        display: flex;
+    }
+
+    .overlay { 
         position: absolute; 
-        top:0; 
+        top: 0; 
         left: 0;
         width: 100%;
-        height:100%;
-        background-color: rgba(0,0,0,0.73   );
-        }
-
-
-
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.73);
+    }
 `
 export const ModalContent = styled.div`
     position:relative;
@@ -95,13 +96,16 @@ export const ModalContent = styled.div`
     }
     
     
-    img
+    img, iframe
     {
         display:block;
         max-width: 100%;
     }
         
-
+    iframe {
+        width: 100%;
+        height: 500px;
+    }
         
 
 `
